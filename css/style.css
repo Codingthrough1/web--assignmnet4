@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #e3f2fd, #fce4ec);
+    margin: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    background-color: #4caf50;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+h1 {
+    color: #0d47a1;
+    background-color: #bbdefb;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #1b5e20;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+ul {
+    background-color: #fff3e0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+    border: 3px solid #555;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    body {
+        background: #fffde7;
+    }
+}
